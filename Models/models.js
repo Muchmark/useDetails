@@ -6,5 +6,5 @@ let userScheama = new mongoose.Schema({
     content: String
 
 })
-module.exports = mongoose.model("userData", userScheama)
+module.exports = mongoose.model("Data", userScheama)
 
