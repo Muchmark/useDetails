@@ -12,7 +12,7 @@ router.post('/', (req, res) => {
 
 
         }).catch((err) => {
-
+            res.status(400).send("error occured..")
         })
         res.status(200).send("entry addded")
     }
