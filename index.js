@@ -2,7 +2,7 @@ const express = require("express")
 const cors = require("cors")
 const mongoose = require("mongoose")
 const app = express()
-const port = process.env.PORT || 3030
+const port = process.env.PORT || 3000
 const form = require("./api/form")
 
 //connect to the mongodb
